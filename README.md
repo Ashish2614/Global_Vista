@@ -11,6 +11,16 @@ npm run dev
 
 Then open the local URL shown by Vite.
 
+## Deploy to Vercel
+
+Import the GitHub repository into Vercel. The included `vercel.json` configures the Vite build automatically:
+
+- Build command: `npm run build`
+- Output directory: `dist`
+- Framework preset: `Vite`
+
+No environment variables are required for the current frontend version.
+
 ## Milestone 1 scope
 
 - Responsive landing page with mobile navigation treatment
